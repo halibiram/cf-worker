@@ -1,0 +1,22 @@
+{
+  "name": "cf-worker",
+  "version": "0.0.1",
+  "description": "Cloudflare Worker proxy & cache for TMDB API",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": [
+    "cloudflare",
+    "worker",
+    "tmdb",
+    "cache",
+    "proxy"
+  ],
+  "author": "halibiram",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.50.0"
+  }
+}

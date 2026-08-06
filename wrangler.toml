@@ -1,0 +1,9 @@
+name = "cf-worker"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+[vars]
+ENVIRONMENT = "production"
+
+# Note: Secret variables like TMDB_API_KEY should be set using:
+# npx wrangler secret put TMDB_API_KEY
