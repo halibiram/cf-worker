@@ -1,6 +1,6 @@
 # Cloudflare Worker TMDB Proxy
 
-Edge-cached proxy for The Movie Database (TMDB) API designed for NuvioTV.
+Edge-cached proxy for The Movie Database (TMDB) API designed for media clients.
 
 ## Features
 
@@ -32,7 +32,7 @@ npx wrangler deploy
 
 ## Integration
 
-In NuvioTV (`NetworkModule.kt`), update the TMDB base URL to point to your worker URL:
+In `NetworkModule.kt`, update the TMDB base URL to point to your worker URL:
 
 ```kotlin
 @Provides
